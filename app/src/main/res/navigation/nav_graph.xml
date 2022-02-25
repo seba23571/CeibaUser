@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/idUserFragment">
+
+    <fragment
+        android:id="@+id/idUserFragment"
+        android:name="com.supraweb.ceibauser.ui.user.UsersFragment"
+        android:label="Listas de usuarios"
+        tools:layout="@layout/users_fragment" >
+        <action
+            android:id="@+id/action_profileFragment_to_publishFragment"
+            app:destination="@id/publishFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/publishFragment"
+        android:name="com.supraweb.ceibauser.ui.publish.PublishFragment"
+        android:label="publish_fragment"
+        tools:layout="@layout/publish_fragment" >
+        <argument
+            android:name="userDetail"
+            app:argType="com.supraweb.ceibauser.data.network.response.UserDetails" />
+    </fragment>
+
+
+</navigation>

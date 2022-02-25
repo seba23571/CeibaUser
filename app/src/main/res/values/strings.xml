@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">CeibaUser</string>
+    <string name="address">address all users</string>
+    <string name="username">User Name</string>
+    <string name="userPublish">Publicaciones del usuario</string>
+
+    <string name="phonenumber">Phones Number</string>
+    <string name="mailname">mail Name</string>
+    <string name="verpublicaciones">Ver Publicaciones</string>
+
+
+    <string name="publishList">Listas de las Publicaciones</string>
+
+
+    <string name="title">Titulo</string>
+    <string name="detallePublicacion">Detalles</string>
+
+    <string name="search">Search</string>
+
+
+    <string name="search_hint">Busqueda por usuarios</string>
+
+
+
+
+
+
+</resources>
