@@ -1,7 +1,9 @@
 # CeibaUser
-Descripciòn.
+
+
+# Descripciòn.
 project for search user from api rest jsonplaceholder
-proyecto usando las api rest desde https://jsonplaceholder.typicode.com/ 
+proyecto Android usando las api rest desde https://jsonplaceholder.typicode.com/ 
 
 es un buscador que permite atraves de un recycler view buscar por nombre de usuarios y sus correspondientes publicaciones.
 
