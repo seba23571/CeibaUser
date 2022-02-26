@@ -18,5 +18,5 @@ Se usan **componentes de navegación** que le da  un detalle de deslizamiento ma
 
 
  # user post searches
- ![](https://github.com/CeibaUser/AppRecortadaV5.gif)
+ ![](https://github.com/seba23571/CeibaUser/AppRecortadaV5.gif)
 
