@@ -16,3 +16,7 @@ Uso de **ViewBinding** para conectar todas las vistas de la UI del proyecto.
 
 Se usan **componentes de navegación** que le da  un detalle de deslizamiento mas visual al intercambio de diferentes Fragment.
 
+
+ # user post searches
+ ![](https://github.com/CeibaUser/AppRecortadaV5.gif)
+
